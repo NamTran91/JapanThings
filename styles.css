@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@font-face{
+    font-family: brushstroke;
+    src: url('./fonts/Amanojaku.otf') format('opentype');
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: "brushstroke", sans-serif;
+}
+
+body {
+    color: blue;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: large;
+    margin: 30px;
+}
