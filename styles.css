@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Protest+Revolution&display=swap');
 
 @font-face{
     font-family: brushstroke;
@@ -10,12 +10,57 @@
 }
 
 h1 {
+    text-align: center;
+}
+
+.title {
+    display:inline;
     font-family: "brushstroke", sans-serif;
+    outline: 5px solid blue;
+    padding: 5px;
+    
+}
+
+.head-img {
+    display: flex;
+    justify-content:center;
+}
+
+.main-img {
+      display: block; 
+      outline: 5px blue dotted;
+      margin: 5px;
+}
+
+.head-img .column1 {
+    display: inline-flex;
+flex-direction:column;
+
+
+}
+
+.head-img .column2 {
+    display: inline-flex;
+flex-direction:column;
+
+}
+
+.hokkaido-head,
+.tohoku-head,
+.kanto-head,
+.kansai-head {
+    display: block;
+    outline: 5px solid blue;
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    flex-grow: 1;
+
 }
 
 body {
     color: blue;
-    font-family: "Protest Revolution", sans-serif;
+    font-family: "Hina Mincho", sans-serif;
     font-size: large;
-    margin: 30px;
+    margin: 50px;
 }
