@@ -1,2 +1,2 @@
-# test01
-Hello Odin!
+# First website
+let's explore interesthing things around Japan
